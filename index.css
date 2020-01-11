@@ -1,3 +1,76 @@
 body{
     background-color: wheat ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    /*
+      Normalize.css sets line-height to 1.15 as a standard,
+      but I prefer 1.5 as the base for all text,
+      because it's a bit more readable and spacious.
+    */
+    line-height: 1.15;
+}
+
+main {
+  /* I prefer to put margin at the bottom to scroll past the bottom of the content for readability. */
+  margin: 0 auto 4rem;
+  /* This width is an arbitrary example. Choose your own value. */
+  max-width: 42rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 0.5rem 0;
+  /* Personally, I prefer lightweight headings. */
+  font-weight: 300;
+}
+p {
+  margin: 0 0 0.5rem 0;
+  font-weight: 400;
+}
+/* Links */
+a {
+  text-decoration: none;
+  /* This color is a personal preference. */
+  color: #146eeb;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Lists */
+ul,
+ol {
+  margin: 0.5rem 0 1rem;
+  padding-inline-start: 2rem;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin: 0;
+}
+
+#note{
+  text-align: bottom;
 }
