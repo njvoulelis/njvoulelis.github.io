@@ -11,19 +11,64 @@
 
 <body>
     <main>
-        <section>
-            <h1>Nick Voulelis</h1>
-            <h2>Projects:</h2>
+
+        <header>
+            <h1 class="name">Nick Voulelis</h1>
+            <div class="rightHead">
+                <h2><a href="https://github.com/njvoulelis">GitHub</a> </h2>
+                <h2><a href="https://www.linkedin.com/in/voulelis/">LinkedIn</a></h2>
+            </div>
+        </header>
+        <a href="https://www.linkedin.com/in/voulelis/"><img id="me" src="static/DSC07025.jpeg"
+                alt="Me With a Snowboard, thanks for asking."></a>
+        <h2>Projects:</h2>
+        <div class="projects">
             <div class="project">
                 <h3><a href="http://3.136.161.174/">EventApp (Deployed on AWS EC2)</a></h3>
-                <p>This is an application created to help organize event planning between friends and acquaintances.</p>
-                <p>Feel free to use the test account found below or test our validations by registering a new account!
+                <p>This is an application created to help organize event planning between friends and acquaintances.
+                    Feel free to use the test account found below or test our validations by registering a new
+                    account!
                 </p>
-                <p>Test Account:</p>
-                <li>email: test@test.test</li>
-                <li>Password: Testpass1!</li>
+                <div class="listGroup">
+                    <li>Worked with one other student to develop an event planning web application</li>
+                    <li>Backend utilized C#, ASP.NET Core and MySQL</li>
+                    <li>Frontend utilized HTML, CSS, Razor and jQuery</li>
+                    <li>Built our login and registration with frontend and backend validations</li>
+                    <li>Personally implemented the Google Maps API</li>
+                    <li>Personally created a live chat feature using SignalR</li>
+                    <hr>
+                    <p>Test Account:</p>
+                    <li>email: test@test.test</li>
+                    <li>Password: Testpass1!</li>
+                    <hr>
+                </div>
             </div>
-        </section>
+            <div class="project">
+                <h3><a href="https://github.com/bridgermiddleton/Dojo-Football">Fantasy Football Web App</a></h3>
+                <p>Two classmates and I created a working fantasy football app for our first full-stack project.</p>
+                <div class="listGroup">
+                    <li>Worked with two other students to develop a fantasy football web application</li>
+                    <li>Backend utilized Python, Django and SQLite</li>
+                    <li>Frontend utilized HTML, CSS and Jinja</li>
+                    <li>Used an API to gather player statistics to calculate a custom scoring method</li>
+                    <li>Implemented both a draft feature and a matchup feature that pitted teams against each other every week</li>
+                    <li>Personally coded our models, login and registration, and scoring method</li>
+                    <li>Used bcrypt to hash our users' passwords and verify them upon login.</li>
+                </div>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/njvoulelis/ShareStream">ShareStream (Currently in development)</a></h3>
+                <p>This project is aimed at linking shared playback between spotify users. Its intended use ranges from
+                    social settings to the ski slopes of your local mountain.</p>
+                <div class="listGroup">
+                    <li>Worked alone to develop a web application for listening to shared playlists</li>
+                    <li>Backend utilized TypeScript, JavaScript, Node.js and Express</li>
+                    <li>Frontend utilized HTML, CSS and Angular</li>
+                    <li>Implemented Spotify OAuth</li>
+                    <li>Utilizes Spotify API for music playback</li>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 

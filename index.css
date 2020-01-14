@@ -20,7 +20,7 @@ main {
   /* I prefer to put margin at the bottom to scroll past the bottom of the content for readability. */
   margin: 2rem auto 4rem;
   /* This width is an arbitrary example. Choose your own value. */
-  max-width: 75rem;
+  max-width: 55rem;
 }
 
 h1 {
@@ -73,7 +73,38 @@ ol ol {
   margin: 0;
 }
 
+hr{
+  color: black;
+  /* height: 3px; */
+  width: 98%;
+}
 
 li{
   line-height: 1.5rem;
+}
+
+header{
+  display: flex;
+}
+
+.name{
+  display: inline-block;
+}
+.rightHead{
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+#me{
+  max-width: 100%;
+  margin-bottom: 3%;
+}
+.projects{
+  padding: 1% 0% 0% 1%;
+}
+.project{
+  margin-bottom: 3%;
+}
+.listGroup{
+  padding: 1% 0% 0% 1%;
 }
