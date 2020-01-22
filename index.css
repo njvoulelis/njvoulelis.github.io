@@ -1,8 +1,8 @@
 body{
-  background-image: url(static/topography.png);
+  /* background-image: url(static/topography.png);
   background-color: rgba(255, 255, 255, 0.45) !important;
   background-blend-mode: color;
-  background-size: 400px;
+  background-size: 400px; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
   "Helvetica Neue", Arial, sans-serif;
   margin: 0;
@@ -23,7 +23,7 @@ main {
   /* background-image: linear-gradient(to bottom right, wheat, #fefefe); */
 
   /* I prefer to put margin at the bottom to scroll past the bottom of the content for readability. */
-  margin: 2rem auto 4rem;
+  margin: 2rem auto 2rem;
   /* This width is an arbitrary example. Choose your own value. */
   max-width: 55rem;
 }
