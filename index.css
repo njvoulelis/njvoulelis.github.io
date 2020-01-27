@@ -9,22 +9,14 @@ body{
   -webkit-text-size-adjust: 100%;
   font-size: 1rem;
   font-weight: 400;
-  /*
-    Normalize.css sets line-height to 1.15 as a standard,
-    but I prefer 1.5 as the base for all text,
-    because it's a bit more readable and spacious.
-  */
   line-height: 1.15;
   padding: .5rem;
-  /* color: whitesmoke; */
 }
 
 main {
   /* background-image: linear-gradient(to bottom right, wheat, #fefefe); */
 
-  /* I prefer to put margin at the bottom to scroll past the bottom of the content for readability. */
   margin: 2rem auto 2rem;
-  /* This width is an arbitrary example. Choose your own value. */
   max-width: 55rem;
 }
 
@@ -50,7 +42,6 @@ h3,
 h4,
 h5 {
   margin: 0 0 0.5rem 0;
-  /* Personally, I prefer lightweight headings. */
   font-weight: 300;
 }
 p {
@@ -61,7 +52,6 @@ p {
 /* Links */
 a {
   text-decoration: none;
-  /* This color is a personal preference. */
   color: #146eeb;
 }
 a:hover {
