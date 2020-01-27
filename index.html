@@ -7,15 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nick Voulelis</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        $(function () {
-            $("#tabs").tabs({
-                collapsible: true
-            });
-        });
-    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="slideShowScript.js"></script>
+
 </head>
 
 <body>
@@ -23,12 +20,27 @@
         <header>
             <h1 class="name">Nick Voulelis</h1>
         </header>
-        <div class="flexContainer">
-            <a href="https://www.linkedin.com/in/voulelis/">
-                <img id="me" src="static/DSC07025.jpeg" alt="Me With a Snowboard, thanks for asking.">
-            </a>
+        <div id="slideshow" class="flexContainer">
+            <div>
+                <img id="me" src="static/slideReel/distance.jpg" alt="On a boat @zaksuhar">
+            </div>
+            <div>
+                <img id="me" src="static/slideReel/misty.jpg" alt="Misty mountain">
+            </div>
+            <div>
+                <img id="me" src="static/slideReel/snowboard.jpg" alt="Me with a snowboard @zaksuhar">
+            </div>
+            <div>
+                <img id="me" src="static/slideReel/sand.jpg" alt="Sand">
+            </div>
+            <div>
+                <img id="me" src="static/slideReel/noRope.jpg" alt="Me wakesurfing @zaksuhar">
+            </div>
+            <div>
+                <img id="me" src="static/slideReel/canyon.jpg" alt="Big canyon">
+            </div>
         </div>
-        <h2>Projects:</h2>
+        <h2 id="projectsHead">Projects:</h2>
         <div class="projects">
             <div class="project">
                 <h3><a href="http://3.136.161.174/">EventApp (Deployed on AWS EC2)</a></h3>
@@ -45,7 +57,7 @@
                     <li>Personally created a live chat feature using SignalR</li>
                     <hr>
                     <p>Test Account:</p>
-                    <li>email: test@test.test</li>
+                    <li>Email: test@test.test</li>
                     <li>Password: Testpass1!</li>
                     <hr>
                 </div>
@@ -80,7 +92,7 @@
             </div>
         </div>
         <footer>
-            <div class="icons">
+            <div class="icons" onclick="">
                 <a href="https://github.com/njvoulelis">
                     <img class="icon" src="static/icons/iconfinder_icon-social-github_211904.png" alt="GitHub Icon">
                 </a>
@@ -95,7 +107,7 @@
                         alt="Download Icon">
                 </a>
             </div>
-            <p id="phoneNumber">(208) 861-2097</p>
+            <p id="phoneNumber">(208)861-2097</p>
         </footer>
         <!-- <footer>
             <div class="icons">
