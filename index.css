@@ -164,13 +164,18 @@ a > .icon:hover{
   filter: alpha(opacity=100)
 }
 
-@media (max-width: 950px){
+@media (max-width: 1025px){
   body{
     padding: 1.5rem;
   }
+  p {
+    line-height: 152%;
+    margin: 0 0 0rem 0;
+    font-weight: 400;
+  }
 }
 
-@media (max-width: 415px){
+@media (max-width: 451px){
   body{
     padding: 1.2rem
   }
@@ -186,6 +191,6 @@ a > .icon:hover{
     min-width: 120%;
   } */
   #projectsHead{
-    margin: 73% 0rem 0rem;
+    margin: 66% 0rem 0rem;
   }
 }
